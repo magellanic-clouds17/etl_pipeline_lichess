@@ -90,6 +90,6 @@ target/
 .mypy_cache/
 
 # exclusion of irrelevant src python scripts
-/src/data/analyse_data_sql
-/src/features
-/src/models
+src/data/analyse_data_sql.py
+src/features.py
+src/models.py
