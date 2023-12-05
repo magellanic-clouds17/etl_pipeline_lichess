@@ -6,7 +6,7 @@ This project involved developing an ETL (Extract, Transform, Load) pipeline to a
 ## Methodology
 - Extracted data from Lichess in PGN (Portable Game Notation) format.
 - Transformed data using Python to calculate player ratings and game outcomes.
-- Loaded the data into a SQLite database and used SQL queries for further analysis.
+- Loaded the data into a SQLite database and used SQL queries for further faster analysis.
 - Visualized the data using Seaborn in Python to understand the rating evolution of players.
 
 ## Key Findings
