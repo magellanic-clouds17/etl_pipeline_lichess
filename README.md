@@ -27,8 +27,7 @@ The project successfully provided insights into the playing habits and performan
 
 ### Top 20 Players by Rating increase:
 
-![top_20_players_by_rating_increase](https://github.com/magellanic-clouds17/etl_pipeline_lichess/issues/2#issue-2026179318)
-![top_20_players_by_games](https://github.com/magellanic-clouds17/etl_pipeline_lichess/assets/72970703/a54ec481-f950-4bbf-b9d3-0ab1f618e9c6)
+![top_20_players_by_rating_increase](https://github.com/magellanic-clouds17/etl_pipeline_lichess/assets/72970703/d573ba31-93c9-4382-8b04-48469c495b33)
 
 Player: we_chess_now
 Total Games: 20
