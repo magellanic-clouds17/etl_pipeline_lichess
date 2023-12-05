@@ -18,6 +18,9 @@ This project involved developing an ETL (Extract, Transform, Load) pipeline to a
 
 *The graph illustrates the smoothed rating evolution over time for the top 20 players. Each line represents a player's rating change from the first to the last game of January 2013. The graph highlights the dynamic nature of player ratings and showcases significant improvements or declines.*
 
+## Conclusion
+The project successfully provided insights into the playing habits and performance trends of Lichess players, demonstrating the power of data engineering in transforming raw data into meaningful information.
+
 ## Top Players Analysis
 - **F1_ALONSO_FERRARI**: Played the most games, with a total of 1729 games and an overall rating increase of 378 points.
 - **Kiriush**: Had the highest rating increase of 688 points across 1097 games.
@@ -147,7 +150,7 @@ Rating Change: 676
 
 ### Top 20 Players by Number of Games:
 
-	Player: F1_ALONSO_FERRARI
+	Player: *F1_ALONSO_FERRARI*
 Total Games: 1729
 First Game: 2013.01.02, Rating: 1500
 Last Game: 2013.01.31, Rating: 1878
@@ -268,8 +271,3 @@ Last Game: 2013.01.31, Rating: 1715
 Rating Change: 205
 
 
-## Conclusion
-The project successfully provided insights into the playing habits and performance trends of Lichess players, demonstrating the power of data engineering in transforming raw data into meaningful information.
-
-## Repository Structure
-The GitHub repository for this project is structured with directories for data, source code, and documentation, ensuring easy navigation and understanding of the project components.
