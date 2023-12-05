@@ -27,6 +27,8 @@ The project successfully provided insights into the playing habits and performan
 
 ### Top 20 Players by Rating increase:
 
+![top_20_players_by_rating_increase](https://github.com/magellanic-clouds17/etl_pipeline_lichess/issues/2#issue-2026179318)
+
 Player: we_chess_now
 Total Games: 20
 First Game: 2013.01.02, Rating: 1226
@@ -149,6 +151,9 @@ Rating Change: 676
 
 
 ### Top 20 Players by Number of Games:
+
+![top_20_players_by_games](https://github.com/magellanic-clouds17/etl_pipeline_lichess/assets/72970703/a54ec481-f950-4bbf-b9d3-0ab1f618e9c6)
+
 Player: F1_ALONSO_FERRARI
 Total Games: 1729
 First Game: 2013.01.02, Rating: 1500
