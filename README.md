@@ -150,7 +150,7 @@ Rating Change: 676
 
 ### Top 20 Players by Number of Games:
 	
-	Player: F1_ALONSO_FERRARI
+	Player: hallo
 Total Games: 1729
 First Game: 2013.01.02, Rating: 1500
 Last Game: 2013.01.31, Rating: 1878
