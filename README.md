@@ -23,6 +23,7 @@ This project involved developing an ETL (Extract, Transform, Load) pipeline to a
 - **Kiriush**: Had the highest rating increase of 688 points across 1097 games.
 
 ### Top 20 Players by Rating increase:
+
 Player: we_chess_now
 Total Games: 20
 First Game: 2013.01.02, Rating: 1226
@@ -145,6 +146,7 @@ Rating Change: 676
 
 
 ### Top 20 Players by Number of Games:
+
 	Player: F1_ALONSO_FERRARI
 Total Games: 1729
 First Game: 2013.01.02, Rating: 1500
