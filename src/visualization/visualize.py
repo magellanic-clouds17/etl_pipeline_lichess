@@ -48,7 +48,7 @@ RatingWithCarryOver AS (
 SELECT * FROM RatingWithCarryOver
 ORDER BY player, game_date;
 '''
-## execute the query and fetch the results
+## execute the query and fetch the results.
 cursor.execute(query_1)
 top_player_time_series = cursor.fetchall()
 

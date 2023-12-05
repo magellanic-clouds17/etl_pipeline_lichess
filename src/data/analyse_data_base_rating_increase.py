@@ -161,7 +161,7 @@ def render_mpl_table(data, col_width=3.0, row_height=0.625, font_size=14,
             cell.set_facecolor(row_colors[k[0] % len(row_colors)])
     return ax.get_figure(), ax
 
-# Create a table image for top 20 players by number of games
+# Create a table image for top 20 players by number of games.
 fig_games, ax_games = render_mpl_table(df_games, header_columns=0, col_width=2.0)
 plt.savefig(r'C:\Users\Latitude\Desktop\Python\portfolio_project_lichess\src\visualization\top_20_players_by_games.png')
 
