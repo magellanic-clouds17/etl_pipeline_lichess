@@ -77,7 +77,7 @@ end_date = pd.to_datetime('2013-01-31')
 ax.set_xlim((start_date - df['game_date'].min()).days, (end_date - df['game_date'].min()).days)
 
 # Plot the smoothed Elo ratings
-sns.lineplot(data=df, x='game_date_numeric', y='smoothed_elo', hue='player', ax=ax)
+sns.lineplot(data=df, x='game_date_numeric', y='smoothed_elo', ax=ax)
 
 # Add a regression line
 sns.regplot(data=df, x='game_date_numeric', y='smoothed_elo', scatter=False, ax=ax, color='black', label='Regression Line')
@@ -90,8 +90,29 @@ ax.set_xlim((start_date - df['game_date'].min()).days, (end_date - df['game_date
 ax.set_xticks([(start_date + pd.Timedelta(days=i) - df['game_date'].min()).days for i in range((end_date - start_date).days + 1)])
 ax.set_xticklabels([(start_date + pd.Timedelta(days=i)).strftime('%Y-%m-%d') for i in range((end_date - start_date).days + 1)], rotation=45)
 
+## add player names to the plot
+
+# Extract unique players from the dataframe
+unique_players = df['player'].unique()
+
+# Generate a color palette for the unique players
+palette = sns.color_palette("tab20", n_colors=len(unique_players))
+player_palette = dict(zip(unique_players, palette))
+
+# Plot each player's smoothed Elo ratings with the corresponding color
+for player, group in df.groupby('player'):
+    sns.lineplot(x='game_date_numeric', y='smoothed_elo', data=group, label=player, ax=ax, color=player_palette[player])
+
+# Now add the player names at the start and end of each line
+for player, group in df.groupby('player'):
+    start_point = group.iloc[0]
+    end_point = group.iloc[-1]
+    ax.text(x=start_point['game_date_numeric'], y=start_point['smoothed_elo'], s=player, color=player_palette[player], ha='right', va='center', fontsize=9)
+    ax.text(x=end_point['game_date_numeric'], y=end_point['smoothed_elo'], s=player, color=player_palette[player], ha='left', va='center', fontsize=9)
+
+# Other parts of the code remain unchanged
 # Move the legend outside the plot
-ax.legend(loc='upper left', bbox_to_anchor=(1.02, 1))
+ax.legend(loc='upper left', bbox_to_anchor=(-0.31, 1))
 plt.show()
 
 # close connection
