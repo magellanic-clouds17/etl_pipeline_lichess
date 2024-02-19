@@ -19,7 +19,7 @@ This project involved developing an ETL (Extract, Transform, Load) pipeline to a
 *The graph illustrates the smoothed rating evolution over time for the top 20 players. Each line represents a player's rating change from the first to the last game of January 2013. The graph highlights the dynamic nature of player ratings and showcases significant improvements or declines.*
 
 ## Conclusion
-The project successfully provided insights into the playing habits and performance trends of Lichess players, demonstrating the power of data engineering in transforming raw data into meaningful information.
+The project successfully provided insights into the playing habits and performance trends of Lichess players, demonstrating my knowledge of data engineering to transform raw data into meaningful information.
 
 ## Top Players Analysis
 - **F1_ALONSO_FERRARI**: Played the most games, with a total of 1729 games and an overall rating increase of 378 points.
