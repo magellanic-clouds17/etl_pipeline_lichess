@@ -1,7 +1,7 @@
 # Lichess ETL Pipeline Project
 
 ## Project Overview
-This project involved developing an ETL (Extract, Transform, Load) pipeline to analyze chess game data from Lichess. The goal was to extract game data, perform transformations to derive insights, and load the data into a SQLite database for analysis.
+This project involved developing an ETL (Extract, Transform, Load) pipeline to analyze data from 121332 Lichess games. Lichess is the largest free and open-source Internet chess server that allows users to play online chess anonymously and offers features such as chess puzzles, computer analysis, tournaments, and various chess variants. The goal was to extract game data, tranform the data to enable a fast analysis, and load the data into a SQLite database to perform the analysis.
 
 ## Methodology
 - Extracted and decompressed data from Lichess in PGN (Portable Game Notation) format.
